@@ -1,0 +1,39 @@
+{
+  "name": "@seoco/prompts",
+  "version": "0.1.0",
+  "description": "A collection of random personal prompts that might be useful.",
+  "scripts": {
+    "prettier:fix": "prettier --write \"**/*.ts\"",
+    "prettier:check": "prettier --check \"**/*.ts\"",
+    "lint:fix": "eslint --max-warnings 0 --fix --ext .ts /",
+    "lint:check": "eslint --max-warnings 0 --ext .ts /"
+  },
+  "license": "MIT",
+  "author": "Seokho Jeong",
+  "repository": "https://github.com/seocochan/prompts.git",
+  "homepage": "https://github.com/seocochan/prompts",
+  "bugs": "https://github.com/seocochan/prompts/issues",
+  "keywords": [
+    "chatgpt",
+    "openai",
+    "llm",
+    "prompt-engineering"
+  ],
+  "devDependencies": {
+    "@types/node": "^18.16.12",
+    "@typescript-eslint/eslint-plugin": "^5.59.2",
+    "@typescript-eslint/parser": "^5.59.2",
+    "eslint": "^8.40.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.8",
+    "tsx": "^3.12.7",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "commander": "^10.0.1",
+    "dotenv": "^16.0.3",
+    "glob": "^10.2.2",
+    "openai": "^3.2.1"
+  }
+}
